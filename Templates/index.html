@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port</title>
+</head>
+<body>
+    <div class="square">
+        <input id="email" class="email" type="email" placeholder="Digite seu E-Mail">
+        <input id="password" class="Senha" type="password" placeholder="Digite sua Senha">
+        <button class="Inscrever" onclick="register()">Inscrever-se</button>
+        <div class="Redes">
+            <button class="facebook" onclick="window.location.href='https://www.facebook.com'">
+                <i class="fab fa-facebook"></i>
+            </button>
+            <button class="google" onclick="window.location.href='https://www.google.com'">
+                <i class="fab fa-google"></i>
+            </button>
+            <button class="linkedin" onclick="window.location.href='https://www.linkedin.com'">
+                <i class="fab fa-linkedin"></i>
+            </button>
+        </div>
+    </div>
+    <div class="square2">
+        <h3>Bem Vindo de Volta!</h3>
+        <p>Para se manter conectado conosco, faça login com suas informações pessoais</p>
+        <button class="Entrar">Entrar</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

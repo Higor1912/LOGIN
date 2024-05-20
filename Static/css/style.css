@@ -1,0 +1,103 @@
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.square {
+    position: relative;
+    margin-right: 20px;
+    padding: 20px;
+    width: 250px;
+    background-color: #083d83;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.square2 {
+    position: relative;
+    padding: 20px;
+    width: 250px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0 10px 10px 0;
+}
+
+h3 {
+    color: #083d83;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    color: #505050;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+input.email, input.Senha {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input.email {
+    margin-top: 70px;
+}
+
+button.Inscrever, button.Entrar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background-color: #083d83;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button.Inscrever {
+    margin-top: 10px;
+}
+
+button.Inscrever:hover, button.Entrar:hover {
+    background-color: #072c6c;
+}
+
+.Redes {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button.facebook, button.google, button.linkedin {
+    font-size: 24px;
+    background-color: #083d83;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button.facebook:hover, button.google:hover, button.linkedin:hover {
+    background-color: #072c6c;
+}
