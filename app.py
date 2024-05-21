@@ -39,4 +39,4 @@ def register():
     return jsonify(success=True, message='Cadastro realizado com sucesso!')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
