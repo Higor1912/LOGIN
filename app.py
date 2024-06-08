@@ -4,7 +4,7 @@ import pymysql
 
 app = Flask(__name__, static_folder='Static', template_folder='Templates')
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://wintech:17012021@localhost/login'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://?'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
